@@ -1,0 +1,26 @@
+{
+  "name": "music-bot-from-discord",
+  "version": "1.0.0",
+  "description": "Bot from discord",
+  "main": "index.js",
+  "repository": "https://github.com/jsomariano/music-bot-from-discord.git",
+  "author": "Junior Santos",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node ."
+  },
+  "dependencies": {
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
